@@ -12,7 +12,7 @@ s.text = 'MathJax.Hub.Config({\
 
 // 2. mathjax itself
 s = document.createElement('script');
-s.src = "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML";
+s.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
 (document.head||document.documentElement).appendChild(s);
 
 // 3. mods to render mathjax
